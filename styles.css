@@ -1,85 +1,75 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
-    margin:0px;
-    padding:0px;
-    border:0px;
+body, h1, h2, h3, p, ul, li, button {
+    margin: 0;
+    padding: 0;
 }
 
-.main_header{
-    background-color: #333;
-    padding: 20px;
-    margin: 0px;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-}
-
-.main-head-img{
-    width: 8%;
-}
-
-.main-nav{
-    display:flex;
-    justify-content: space-around;
-    width:100%;
-    background-color: #333;
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: #333;
+    color: #fff;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-
-.main-nav-link{
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-}
-
-.about-us{
-    display:flex;
-    flex-direction: column;
-    background-color: #ddd;
-    padding: 20px;
-    margin: 20px;
-}
-
-/* .about-us .head{
-    align-self:first baseline;
-} */
-
-.shop-now button{
-    background-color: #4CAF50;
-    padding: 10px;
-    margin: 20px;
-    color: white;
-}
-
-.customer-reviews{
-    display: flex;
-    flex-direction: column;
-    background-color: #ddd;
-    padding: 20px;
-    margin: 20px;
-}
-
-.star-rating {
-    font-size: 24px;  
-  }
-  
-.star {
-display: inline-block;
-margin-right: 5px;
-color: gold;
-}
-
-.main-footer{
-    display: flex;
-    justify-content: center;
+header {
     background-color: #333;
+    color: #7193f3;
     padding: 10px;
-    color: white;
+    text-align: center;
 }
 
+header img {
+    display: inline-block;
+    height: 80px;
+    width: auto;
+    margin-right: 10px;
+}
+
+header h1 {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+nav {
+    background-color: #1e47ff;
+    padding: 10px;
+}
+
+nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+main {
+    padding: 20px;
+    
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #4b69ec;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+main p {
+    margin-bottom: 10px;
+}
+
+main a {
+    display: block;
+    margin-bottom: 5px;
+    color: #1e90ff;
+    text-decoration: none;
+}
 .product-list{
-    background-color: #ddd;
+    background-color: #333;
     padding: 20px;
     margin: 20px;
     box-sizing: border-box;
@@ -93,7 +83,7 @@ color: gold;
     display:flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #f9f9f9;
+    background-color: #333;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
@@ -114,4 +104,35 @@ color: gold;
     padding: 10px;
     margin: 20px;
     color: white; 
+}
+.about-us{
+    display:flex;
+    flex-direction: column;
+    background-color: #333;
+    padding: 20px;
+    margin: 20px;
+}
+
+.customer-reviews{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 20px;
+    margin: 20px;
+}
+
+.star-rating {
+    font-size: 24px;  
+}
+
+.star {
+display: inline-block;
+margin-right: 5px;
+color: gold;
+}
+.shop-now button{
+    background-color: #4CAF50;
+    padding: 10px;
+    margin: 20px;
+    color: white;
 }
